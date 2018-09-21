@@ -144,6 +144,14 @@ export async function rebirth () {
   return result;
 }
 
+export async function emptyArmory () {
+  let result = await axios.post('/api/v4/user/empty-armory');
+
+  window.location.reload(true);
+
+  return result;
+}
+
 export async function togglePrivateMessagesOpt (store) {
   let response = await axios.put('/api/v4/user',
     {

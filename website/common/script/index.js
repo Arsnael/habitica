@@ -151,6 +151,7 @@ import sell from './ops/sell';
 import unlock from './ops/unlock';
 import revive from './ops/revive';
 import rebirth from './ops/rebirth';
+import emptyArmory from './ops/emptyArmory';
 import blockUser from './ops/blockUser';
 import clearPMs from './ops/clearPMs';
 import deletePM from './ops/deletePM';
@@ -181,6 +182,7 @@ api.ops = {
   unlock,
   revive,
   rebirth,
+  emptyArmory,
   blockUser,
   clearPMs,
   deletePM,

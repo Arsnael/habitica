@@ -1066,6 +1066,12 @@
   width: 99px;
   height: 99px;
 }
+.armory_key {
+  background-image: url('~assets/images/sprites/spritesmith-main-10.png');
+  background-position: -415px -1670px;
+  width: 68px;
+  height: 68px;
+}
 .empty_bottles {
   background-image: url('~assets/images/sprites/spritesmith-main-10.png');
   background-position: -1481px -625px;
